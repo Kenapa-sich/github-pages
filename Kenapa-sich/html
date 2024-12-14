@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html xmlns='http://www.w3.org/1999/xhtml' lang='id'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Detail Kursus Online</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background: #2196f3;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        main {
+            padding: 20px;
+        }
+        .course-detail {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            padding: 20px;
+        }
+        .course-detail h2 {
+            margin-top: 0;
+            color: #2196f3;
+        }
+        .course-detail ul {
+            padding-left: 20px;
+        }
+        .course-detail ul li {
+            margin-bottom: 10px;
+        }
+        .enroll-btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background: #4caf50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+        }
+        .enroll-btn:hover {
+            background: #43a047;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Detail Kursus: Matematika Menengah</h1>
+    </header>
+    <main>
+        <div class="course-detail">
+            <h2>Deskripsi Kursus</h2>
+            <p>Kursus ini dirancang untuk membantu siswa memahami konsep-konsep matematika tingkat menengah dengan cara yang interaktif dan menarik. Anda akan belajar tentang aljabar, geometri, dan trigonometri, serta menerapkan konsep-konsep tersebut dalam situasi nyata.</p>
+            <h2>Tujuan Pembelajaran</h2>
+            <ul>
+                <li>Memahami dasar-dasar aljabar dan geometri.</li>
+                <li>Mampu menyelesaikan masalah trigonometri sederhana.</li>
+                <li>Meningkatkan kemampuan berpikir logis dan analitis.</li>
+            </ul>
+            <h2>Detail Kursus</h2>
+            <ul>
+                <li><strong>Durasi:</strong> 4 Minggu</li>
+                <li><strong>Format:</strong> Online, Video Pembelajaran + Tugas Interaktif</li>
+                <li><strong>Biaya:</strong> Rp 500.000</li>
+                <li><strong>Pembimbing:</strong> Hary Kusnadi, S.Pd</li>
+            </ul>
+            <a href="#" class="enroll-btn">Daftar Sekarang</a>
+        </div>
+    </main>
+    <footer>
+        <p>© 2024 Kursus Online Hary Kusnadi. Semua hak dilindungi.</p>
+    </footer>
+</body>
+</html>
